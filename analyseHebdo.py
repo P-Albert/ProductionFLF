@@ -310,12 +310,12 @@ changelog = loadChangelog()
 #lastDay = str(st.date_input('Dernier Jour de la période courante'))
 
 # Production week or range: (YYYY-MM-DD)
-firstDay = '2022-07-06' #                           select Streamlit
-lastDay ='2022-07-17'   #                           select Streamlit
+firstDay = '2022-07-14' #                           select Streamlit
+lastDay ='2022-07-19'   #                           select Streamlit
 
 # Production compared - previous week or past range:
-offset_firstDay = '2022-06-13' # 12 juin changement temps de mesure
-offset_lastDay = '2022-07-04' # 5 jullet modification au plc
+offset_firstDay = '2022-07-08' # 12 juin changement temps de mesure
+offset_lastDay = '2022-07-09' # 5 jullet modification au plc
     
 
 # Production ***
