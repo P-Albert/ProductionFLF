@@ -420,7 +420,8 @@ with col1:
 with col2:
     st.title('Beamcut Systems')
    
-add_sidebar = st.sidebar.selectbox('Rapports', ('Stats Hebdomadaires', 'Stats Programmes BC', 'Changelog'))
+# add_sidebar = st.sidebar.selectbox('Rapports', ('Stats Hebdomadaires', 'Stats Programmes BC', 'Changelog'))
+add_sidebar = st.sidebar.selectbox('Rapports', ('Stats Hebdomadaires', 'Changelog'))
 st.sidebar.write("[Site Internet](%s)" % url_bc)
 
 if add_sidebar == 'Stats Hebdomadaires':
