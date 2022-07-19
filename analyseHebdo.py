@@ -426,7 +426,14 @@ st.sidebar.write("[Site Internet](%s)" % url_bc)
 
 if add_sidebar == 'Stats Hebdomadaires':
     
-    st.title('Étude de la production hebdomadaire')
+    col1, mid, col2 = st.columns([30,1,10])
+    with col1:
+        st.title('Étude de la production hebdomadaire')
+    with col2:
+        st.image('logoFLF.png', width=100)
+        
+        
+    
     
     # Afficher les Périodes
     days_diff = numberOfDays - numberOfDays_prev
